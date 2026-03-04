@@ -2,7 +2,11 @@ This repository contains the code sample for my Tubi Builders Program applicatio
 
 The code first runs the BLAMM algorithm, which iteratively learns which entries to make missing so that the resulting partially observed dataset yields a biased ATE estimate. Next, the efficacy of the learned missingness is measured and compared with a baseline attack. The experiments use the real‑world TWINS benchmark dataset, which must be downloaded first as explained below.
 
-All code provided, except the folder External/ is written by me.
+All code provided, except the following is written by me:
+-Certain functions in helper_draw_nn.py and helper_erm_nn.py are written with LLM assistance and are indicated by @chatgpt,
+-Folder External/ contains external packages not written by me,
+-File helper_catenets.py is written by me and is derived from external code
+CATENets-main/experiments/experiments_inductivebias_NeurIPS21
 
 Steps:
 
